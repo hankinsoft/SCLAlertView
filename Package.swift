@@ -2,20 +2,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "SCLAlertView",
+    name: "SCLAlertViewFramework",
     platforms: [
         .iOS(.v13),
     ],
     products: [
         .library(
-            name: "SCLAlertView",
-            targets: ["SCLAlertView"]
+            name: "SCLAlertViewFramework",
+            targets: ["SCLAlertViewFramework"]
         ),
     ],
     targets: [
         .target(
-            name: "SCLAlertView",
-            path: "SCLAlertView"
+            name: "SCLAlertViewFramework",
+            path: ".",
+            exclude: ["SCLAlertViewTests", "SCLAlertViewExample"]
         )
     ]
 )
