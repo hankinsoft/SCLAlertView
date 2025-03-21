@@ -13,7 +13,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #endif
-#import "SCLButton.h"
+#import <SCLAlertViewFramework/SCLButton.h>
 
 @interface SCLAlertViewStyleKit : NSObject
 

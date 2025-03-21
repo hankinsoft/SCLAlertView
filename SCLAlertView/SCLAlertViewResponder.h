@@ -11,7 +11,7 @@
 #else
 #import <Foundation/Foundation.h>
 #endif
-#import "SCLAlertView.h"
+#import <SCLAlertViewFramework/SCLAlertView.h>
 
 @interface SCLAlertViewResponder : NSObject
 

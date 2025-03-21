@@ -12,7 +12,7 @@
 #else
 #import <UIKit/UIKit.h>
 #endif
-#import "SCLButton.h"
+#import <SCLAlertViewFramework/SCLButton.h>
 
 @interface SCLTimerDisplay : UIView {
     CGFloat currentAngle;

@@ -11,9 +11,9 @@
 #else
 #import <UIKit/UIKit.h>
 #endif
-#import "SCLButton.h"
-#import "SCLTextView.h"
-#import "SCLSwitchView.h"
+#import <SCLAlertViewFramework/SCLButton.h>
+#import <SCLAlertViewFramework/SCLTextView.h>
+#import <SCLAlertViewFramework/SCLSwitchView.h>
 
 typedef NSAttributedString* (^SCLAttributedFormatBlock)(NSString *value);
 typedef void (^SCLDismissBlock)(void);
